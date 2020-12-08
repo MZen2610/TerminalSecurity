@@ -5,6 +5,7 @@ from datacenter.models import Visit
 
 
 def passcard_info_view(request, passcode):
+
     passcard = Passcard.objects.filter(passcode=passcode).get()
     visits = Visit.objects.filter(passcard=passcard)
 
