@@ -3,15 +3,6 @@ Bank security console
 
 Description
 -----------
-
-.. image:: https://github.com/lk-geimfari/mimesis/workflows/test/badge.svg?branch=master
-     :target: https://github.com/lk-geimfari/mimesis/actions
-     :alt: Github Actions Test
-
-.. image:: https://img.shields.io/badge/python-3.5+-brightgreen.svg
-     :target: https://badge.fury.io/py/mimesis
-     :alt: Python version
-
 The security console is a site that can be connected to a remote database with visits and pass cards of bank employees.
 
 How to install
