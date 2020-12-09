@@ -5,6 +5,12 @@ Description
 -----------
 The security console is a site that can be connected to a remote database with visits and pass cards of bank employees.
 
+Environment requirements
+--------------------------
+```
+python 3.5 +
+```
+
 How to install
 --------------
 Python3 should be already installed. 
