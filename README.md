@@ -26,15 +26,12 @@ cd TerminalSecurity
 pip install -r requirements.txt
 ```
 DJANGO_DEBUG on production server must be False. If True, displays detailed error information.
+To connect to the test database, create a file .env in folder project
 ```
-DB_HOST = your_host
-DB_PORT = your_port
-DB_NAME = your_name
-DB_USER = your_username
-DB_PASSWORD = your_password
-DJANGO_SECRET_KEY = your_secret_key
-DJANGO_DEBUG = False
+project/.env
 ```
+copy data from env_example file to .env file
+
 Run the project
 ```
 python manage.py runserver
