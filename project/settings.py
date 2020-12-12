@@ -3,22 +3,22 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
 DATABASES = {
     'default': {
-        'ENGINE': os.getenv("ENGINE"),
-        'HOST': os.getenv("HOST"),
-        'PORT': os.getenv("PORT"),
-        'NAME': os.getenv("NAME"),
-        'USER': os.getenv("DATABASES_USER"),
-        'PASSWORD': os.getenv("PASSWORD"),
+        'ENGINE': os.getenv("DB_ENGINE"),
+        'HOST': os.getenv("DB_HOST"),
+        'PORT': os.getenv("DB_PORT"),
+        'NAME': os.getenv("DB_NAME"),
+        'USER': os.getenv("DB_DATABASES_USER"),
+        'PASSWORD': os.getenv("DB_PASSWORD"),
     }
 }
 
 INSTALLED_APPS = ['datacenter']
 
-DEBUG = os.getenv('DEBUG')
+DEBUG = os.getenv('DJANGO_DEBUG')
 
 ROOT_URLCONF = "project.urls"
 
