@@ -6,7 +6,7 @@ Description
 The security console is a site that can be connected to a remote database with visits and pass cards of bank employees.
 This repository was created for educational purposes. Module by devman
 
-Environment requirements
+Requirements
 --------------------------
 ```
 python 3.5 +
