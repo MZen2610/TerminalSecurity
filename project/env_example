@@ -1,0 +1,11 @@
+DB_ENGINE = django.db.backends.postgresql_psycopg2
+DB_HOST = checkpoint.devman.org
+DB_PORT = 5434
+DB_NAME = checkpoint
+DB_DATABASES_USER = guard
+DB_PASSWORD = osim5
+
+
+DJANGO_SECRET_KEY = REPLACE_ME
+
+DJANGO_DEBUG = False
