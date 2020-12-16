@@ -1,7 +1,10 @@
 import os
+from environs import Env
 from dotenv import load_dotenv
 
 load_dotenv()
+env = Env()
+env.read_env() # reading .env file
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
@@ -18,7 +21,7 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-DEBUG = os.getenv('DJANGO_DEBUG')
+DEBUG = env.bool("DJANGO_DEBUG", default=False)
 
 ROOT_URLCONF = "project.urls"
 
