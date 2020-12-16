@@ -17,7 +17,7 @@ class Passcard(models.Model):
 
 class Visit(models.Model):
     created_at = models.DateTimeField(auto_now=True)
-    passcard = models.ForeignKey(Passcard, models.CASCADE,)
+    passcard = models.ForeignKey(Passcard, models.CASCADE, )
     entered_at = models.DateTimeField()
     leaved_at = models.DateTimeField(null=True)
 
