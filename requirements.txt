@@ -1,10 +1,6 @@
-pip~=20.3
-pytz~=2020.4
-Django~=3.1.4
-sqlparse~=0.4.1
-psycopg2~=2.8.6
-asgiref~=3.3.1
-marshmallow~=3.9.1
-python-dotenv~=0.15.0
-setuptools~=50.3.2
-environs~=9.2.0
+asgiref==3.3.1
+Django==3.1.4
+psycopg2==2.8.6
+python-dotenv==0.15.0
+pytz==2020.4
+sqlparse==0.4.1
