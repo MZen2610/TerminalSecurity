@@ -30,7 +30,23 @@ To connect to the test database, create a file .env in folder project
 ```
 project/.env
 ```
-copy data from env_example file to .env file
+*copy the settings file for the project:
+```
+copy project/env_example to project/.env 
+```
+*fill with your data the variables in this file
+(example file inside)
+```
+DB_HOST=your_host
+DB_PORT=your_port
+DB_NAME=your_name
+DB_USER=your_username
+DB_PASSWORD=your_password
+
+DJANGO_SECRET_KEY=your_secret_key
+
+DJANGO_DEBUG=False
+```
 
 Run the project
 ```
